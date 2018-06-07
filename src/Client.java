@@ -20,7 +20,7 @@ public class Client {
             String input = "";
             String output = "";
 
-            while (!dataOutputStream.equals("end")) {
+            while (!output.equals("end")) {
                 
             	System.out.println("Enter text or 'end' for exit: ");
             	
